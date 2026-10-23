@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# PyInstaller / Build outputs
+build/
+dist/
+dist_*/
+*.spec.bak
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database, runtime exports and logs
+data/logs/
+data/exports/
+data/temp/
+*.log
+*.sqlite3
+cv_modifier.db
+data/cv_modifier.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Scratch & temporary scripts
+scratch/
